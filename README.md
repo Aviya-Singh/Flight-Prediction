@@ -96,7 +96,11 @@ min_samples_leaf: 2
 Saving the best model using pickle for production deployment
 
 # API Endpoints
-
+| Endpoint      | Method                         | Description                                       |
+|---------------|--------------------------------|---------------------------------------------------|
+| `/` | GET     | Home page with prediction form |
+| `/predict`    | POST                           | Returns fare prediction based on input parameters |
+| `/statistics` | GET                            | Shows model performance statistics                |
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -104,9 +108,9 @@ Contact: Aviya Singh
 Project Link: https://github.com/Aviya-Singh/Flight-Prediction
 
 # References
-1. Meel, P., & Vishwakarma, D. P. (2023). Airline Price Prediction Using Machine Learning Algorithm. International Journal of Engineering Research & Technology, 12(5), 56-63. https://doi.org/10.17577/IJERTV12IS050051
-2. Srivastava, A., Mahajan, D., Kumar, N., & Singh, D. (2022). Predictive Analysis of Flight Prices Using Machine Learning Models. International Journal of Information Technology, 14, 2613–2620. https://doi.org/10.1007/s41870-022-01040-6
-3. Xu, X., & Law, R. (2021). Review of Machine Learning Algorithms for Pricing in Tourism and Hospitality. Journal of Travel Research, 60(4), 739-755. https://doi.org/10.1177/0047287520934880
+1. Korkmaz, Huseyin. (2024). Prediction of Airline Ticket Price Using Machine Learning Method. Journal of Transportation and Logistics. 9. 1-14. 10.26650/JTL.2024.1486696. 
+2. M. Tuli, L. Singh, S. Tripathi and N. Malik, "Prediction of Flight Fares Using Machine Learning," 2023 13th International Conference on Cloud Computing, Data Science & Engineering (Confluence), Noida, India, 2023, pp. 13-18, doi: 10.1109/Confluence56041.2023.10048801.
+3. Gupta, Shikha & Gupta, Nishi & Publication Hub, Tjcse. (2024). Flight Fare Prediction Using Machine Learning. 
 
 # Acknowledgements
 Kaggle for the dataset

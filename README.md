@@ -103,7 +103,7 @@ Saving the best model using pickle for production deployment
 | `/statistics` | GET                            | Shows model performance statistics                |
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 Contact: Aviya Singh 
 Project Link: https://github.com/Aviya-Singh/Flight-Prediction
 
